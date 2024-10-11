@@ -262,3 +262,7 @@ Random random = new Random();
 # Практика
 Запускаем онлайн редактор _replit_
 https://replit.com/
+
+![image](https://github.com/user-attachments/assets/706b8c7f-6e03-4776-963a-8e2be96c2da9)
+
+

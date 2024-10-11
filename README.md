@@ -260,7 +260,10 @@ Random random = new Random();
 > Яков Файн, Программирование на Java для детей, родителей, бабушек и дедушек
 
 # Практика
-Запускаем онлайн редактор _replit_
+* Запускаем через _cmd_ :
+	- javac HelloWorld
+ 	- java HelloWorld
+* Запускаем онлайн редактор _replit_
 https://replit.com/
 
 ![image](https://github.com/user-attachments/assets/dbae3861-433f-440a-bac4-472d0ae1743e)

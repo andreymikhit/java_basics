@@ -261,13 +261,20 @@ Random random = new Random();
 
 # Практика
 * Запускаем через _cmd_ компилятор :
-	- javac HelloWorld
+	- javac HelloWorld.java
  	- java HelloWorld
 * Запускаем онлайн редактор _replit_ : https://replit.com/
 
 **HelloWorld.java**
 ![image](https://github.com/user-attachments/assets/dbae3861-433f-440a-bac4-472d0ae1743e)
 
-
-
+```Shell
+~/.../main/java$ ls
+HelloWorld.java
+~/.../main/java$ javac HelloWorld.java
+~/.../main/java$ ls
+HelloWorld.class  HelloWorld.java
+~/.../main/java$ java HelloWorld
+Hello, world!
+```
 

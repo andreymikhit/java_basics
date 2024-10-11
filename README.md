@@ -58,3 +58,34 @@ _JAVA_HOME_ — переменная, указывающая на директо
 Далее необходимо отредактировать значение переменной PATH, добавив туда путь к директории, где находятся исполняемые файлы Java, то есть
 
 > %JAVA_HOME%\bin
+
+![image](https://github.com/user-attachments/assets/850e07b7-2667-43ac-83d4-843776f67b09)
+
+4. Тест конфигурации
+
+Открываем командную строку и вводим:
+
+> echo %JAVA_HOME%
+Выводит директорию где установлено Java JDK.
+
+>  javac -version
+Выведет версию java-компилятора, если переменная PATH установлена ​​правильно.
+
+# 2. Написание кода
+Windows
+- Notepad++ https://notepad-plus-plus.org
+Windows, Linux и Mac
+- Atom https://atom.io
+- Geany www.geany.org
+
+# 3. HelloWorld
+```Java
+// моя первая программа
+class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello, world!");
+}
+}
+```
+
+

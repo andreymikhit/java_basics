@@ -35,12 +35,16 @@ GeekBrains
 https://replit.com/
 
 Устанавливать Java JDK  будем в 3 этапа:
-1. Загрузка с сайта пакета JDK (Java Development Kit)
-_Загрузка с сайта пакета JDK (Java Development Kit)_ https://www.oracle.com/java/technologies/downloads/?er=221886
-3. Установка JDK (Java Development Kit)
-4. Настройка переменных окружения
+1. Загрузка с сайта пакета _JDK_ (Java Development Kit)
+https://www.oracle.com/java/technologies/downloads/?er=221886
+![image](https://github.com/user-attachments/assets/77d3db9c-e396-47ae-be81-e4ca67850ad8)
 
-2. 
-3. 
-4. 
+3. Установка JDK (Java Development Kit)
+Запускаем установщик с правами администратора и устанавливаем всё по умолчанию, ничего не меняя в процессе.
+4. Настройка переменных окружения
+Инсталлятор Java не выполняет настройку переменных окружения, поэтому придётся нам это делать вручную после установки.
+_JAVA_HOME_ — переменная, указывающая на директорию, в которую установлена Java. Программы её используют чтобы определить, где установлена Java.
+Для этого комбинацией клавиш Win+R открываем окно «Выполнить«. Набираем команду: «control /name microsoft.system« без кавычек.
+
+
 

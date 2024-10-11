@@ -268,6 +268,7 @@ Random random = new Random();
 **HelloWorld.java**
 ![image](https://github.com/user-attachments/assets/dbae3861-433f-440a-bac4-472d0ae1743e)
 
+**Shell**
 ```Shell
 ~/.../main/java$ ls
 HelloWorld.java

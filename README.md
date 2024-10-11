@@ -283,6 +283,9 @@ HelloWorld.java
 ~/.../main/java$ javac HelloWorld.java
 ~/.../main/java$ ls
 HelloWorld.class  HelloWorld.java
+
+~/.../main/java$java HelloWorld
+Hello, world!
 ```
 
 

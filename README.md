@@ -268,26 +268,21 @@ Random random = new Random();
 **HelloWorld.java**
 ![image](https://github.com/user-attachments/assets/dbae3861-433f-440a-bac4-472d0ae1743e)
 
+**Shell**
 ```Java
+cd ~/.../main/java$
 ~/.../main/java$ cat HelloWorld.java
 // моя первая программа
 class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, world!");
     }
-```
 
-**Shell**
-```Shell
 ~/.../main/java$ ls
 HelloWorld.java
 ~/.../main/java$ javac HelloWorld.java
 ~/.../main/java$ ls
 HelloWorld.class  HelloWorld.java
-~/.../main/java$ java HelloWorld
-Hello, world!
 ```
-
-
 
 

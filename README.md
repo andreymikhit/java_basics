@@ -273,6 +273,7 @@ Random random = new Random();
 ```Java
 cd ~/.../main/java$
 ~/.../main/java$ cat HelloWorld.java
+
 // моя первая программа
 class HelloWorld {
   public static void main(String[] args) {
@@ -290,7 +291,7 @@ Hello, world!
 ```
 
 ```Java
-// if-cycle
+// циклы
 class HelloWorld2 {
   public static void main(String[] args) {
     for (int i = 0; i < 5; i++) {
@@ -307,6 +308,37 @@ class HelloWorld2 {
 3. Hello, world!
 4. Hello, world!
 ```
+
+```Java
+// импорт библиотек
+import java.util.Random;
+
+class HelloWorld3 {
+  public static void main(String[] args) {
+    Random rnd = new Random();
+    for (int i = 0; i < 5; i++) {
+      System.out.println("Hello, world " + rnd.nextInt(10) + "!");
+      System.out.println(rnd.nextFloat(1000));
+      }
+    }
+}
+
+~/.../main/java$ javac HelloWorld3.java
+~/.../main/java$ java HelloWorld3
+Hello, world 2!
+609.1372
+Hello, world 6!
+950.6018
+Hello, world 4!
+391.41296
+Hello, world 3!
+483.22665
+Hello, world 4!
+126.694855
+```
+
+
+
 
 
 

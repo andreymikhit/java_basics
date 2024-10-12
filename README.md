@@ -337,8 +337,30 @@ Hello, world 4!
 126.694855
 ```
 
+```Java
+// библиотека random, system
+import java.util.Random;
 
+class HelloWorld4 { 
+  public static void main(String[] args) {
+    Random rnd = new Random();
+    for (int i = 0; i < 50; i++) {
+      System.out.print(rnd.nextInt(10));
+      }
+    System.out.print("\n");
+    for (int i = 0; i < 10; i++) {
+      System.out.print(rnd.nextInt(100) + " ");
+      }
+    }
+}
 
+~/.../main/java$ javac HelloWorld4.java
+~/.../main/java$ java HelloWorld4
+50581305769570632484215472574143893343959986995603
+4 62 16 23 34 55 73 61 77 69
+```
 
+> Random
+> https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
 
 

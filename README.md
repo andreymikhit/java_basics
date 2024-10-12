@@ -361,6 +361,57 @@ class HelloWorld4 {
 ```
 
 > Random
+
 > https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
 
+```Java
+// Game GuessTheNumber
+import java.util.Random;
+import java.util.Scanner;
 
+class GuessTheNumber { 
+  public static void main(String[] args) {
+    Random rnd = new Random();
+    Scanner scanr = new Scanner(System.in);
+    int counter, guess, number;
+    
+    do {
+      counter = 0;
+      guess = -1;
+      number = rnd.nextInt(10);
+
+      while (counter < 3 && guess != number) {
+        System.out.print("Guess the number 0...9: ");
+        guess = scanr.nextInt();
+        if (guess != number) {
+          System.out.println("Your number is " + (guess < number ? "less" : "greater"));
+          counter++;
+          }
+      }
+      System.out.println("You " + (guess == number ? "win" : "lose") + "! Number was " + number);
+      System.out.print("One more game? Yes -- 1 or No -- 0: ");
+
+    } while (scanr.nextInt() == 1);
+  }
+}
+
+
+~/.../main/java$ javac GuessTheNumber.java
+~/.../main/java$ java GuessTheNumber
+Guess the number 0...9: 5
+Your number is less
+Guess the number 0...9: 1
+Your number is less
+Guess the number 0...9: 2
+Your number is less
+You lose! Number was 6
+One more game? Yes -- 1 or No -- 0: 1
+Guess the number 0...9: 0
+Your number is less
+Guess the number 0...9: 1
+Your number is less
+Guess the number 0...9: 2
+Your number is less
+You lose! Number was 5
+One more game? Yes -- 1 or No -- 0: 0
+```

@@ -289,4 +289,24 @@ HelloWorld.class  HelloWorld.java
 Hello, world!
 ```
 
+```Java
+// if-cycle
+class HelloWorld2 {
+  public static void main(String[] args) {
+    for (int i = 0; i < 5; i++) {
+      System.out.println(i + ". " + "Hello, world!");
+      }
+    }
+}
+
+~/.../main/java$ javac HelloWorld2.java
+~/.../main/java$ java HelloWorld2
+0. Hello, world!
+1. Hello, world!
+2. Hello, world!
+3. Hello, world!
+4. Hello, world!
+```
+
+
 
